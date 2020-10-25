@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.svg" alt="logo-img" class="logo">
+    <nav>
+      <ul>
+        <li><a href="#hero-section"> Features </a></li>
+        <li><a href="#team-section"> Team</a></li>
+        <li><a href="#signin"> Sign In</a></li> 
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <section class="hero-section ">
+      <img src="images/illustration-1.svg" alt="hero-img" class="illustration hero-img">
+      <div class="hero-content">
+        <h1>All your files in one secure location, accessible anywhere.</h1>
+        <p> Fylo stores your most important files in one secure location. 
+        Access them wherever you need, share and collaborate with friends, 
+        family, and co-workers.</p>
+        <input type="email" placeholder="Enter your email..." class="input hero-input">
+        <a href="" class="cta1 btn"> Get Started </a>
+      </div>
+    </section>
+  </div>
+    
+  <section class="team-section">
+    <div class="container">
+
+      <img src="images/illustration-2.svg" alt="" class="illustration team-img">
+      <div class="team-content">
+        <h3>Stay productive, wherever you are</h3>
+        <p class="team-desc"> Never let location be an issue when accessing your files. Fylo has you 
+        covered for all of your file storage needs.</p>
+        <p class="team-desc"> Securely share files and folders with friends, family and colleagues for 
+        live collaboration. No email attachments required!</p>
+        <a href="" class="read-more"> See how Fylo works </a>
+        
+        <figure>
+          <img src="images/icon-quotes.svg" alt="">
+          <blockquote> Fylo has improved our team productivity by an order of magnitude. Since 
+          making the switch our team has become a well-oiled collaboration machine.</blockquote>
+          <div class="user">
+            <img src="images/avatar-testimonial.jpg" alt="" style="width:50px; border-radius: 50%;">  
+            <p>Kyle Burton <br><span> Founder & CEO, Huddle </span></p>
+          </div>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="signin-section ">
+    <div class="container">
+      <div class="signin-content">
+        <h3>Get early access today</h3>
+        <p> It only takes a minute to sign up and our free starter tier is extremely generous. 
+        If you have any questions, our support team would be happy to help you.</p>
+      </div>
+      <div class="cta-section">
+        <input type="email" placeholder="email@example.com" class="input">
+        <a href="" class="cta2 btn"> Get Started For Free</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <img src="images/footer-logo.svg" alt="footer-logo" class="footer-logo">
+      <div class="contact-container">
+        <p><img src="images/icon-phone.svg" alt="" class="contact-icon phone"> Phone: +1-543-123-4567 </p>
+        <p><img src="images/icon-email.svg" alt="" class="contact-icon email">  example@fylo.com </p>
+      </div>
+      <ul class="links link1">
+        <li><a href=""> About Us</a></li>
+        <li><a href=""> Jobs</a></li>
+        <li><a href=""> Press</a></li>
+        <li><a href=""> Blog</a></li>
+      </ul>
+      <ul class="links link2">
+        <li><a href=""> Contact Us</a></li>
+        <li><a href=""> Terms</a></li>
+        <li><a href=""> Privacy</a></li>
+      </ul>
+      <ul class="social-icons">
+        <li><a href=""><img src="images/facebook.svg" alt="" width="30"></a></li>
+        <li><a href=""><img src="images/twitter.svg" alt="" width="30"></a></li>
+        <li><a href=""><img src="images/instagram.svg" alt="" width="30"></a></li>
+      </ul>
+    </div>
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">yazeed</a>.
+    </p>
+  </footer>
+</body>
+</html>
